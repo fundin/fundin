@@ -30,7 +30,7 @@ Fundin is a revolutionary cryptocurrency, developed with a motive to enhance cro
 <tr><td>>=100,102-300,101</td><td>200 FDN</td><td>120 FDN</td><td>80 FDN</td></tr>
 <tr><td>>=300,102-600,101</td><td>150 FDN</td><td>90 FDN</td><td>60 FDN</td></tr>
 <tr><td>>=600,102-1,200,101</td><td>100 FDN</td><td>60 FDN</td><td>40 FDN</td></tr>
-<tr><td>>=1,200,102-2,200,101</td><td>75 FDN</td><td>45 FDN</td><td>25 FDN</td></tr>
+<tr><td>>=1,200,102-2,200,101</td><td>75 FDN</td><td>45 FDN</td><td>30 FDN</td></tr>
 <tr><td>>= 2,200,102-3,200,101</td><td>50 FDN</td><td>30 FDN</td><td>20 FDN</td></tr>
 <tr><td>>= 3,200,102</td><td>2.5 FDN</td><td>1.5 FDN</td><td>1 FDN</td></tr>
 </table>
