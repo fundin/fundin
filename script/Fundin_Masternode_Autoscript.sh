@@ -109,6 +109,7 @@ installDependencies() {
 compileWallet() {
     echo
     echo -e "[6/${MAX}] Compiling wallet. Please wait..."
+    echo -e "NOTE: This could take 30 minutes- go grab a coffee..."
     git clone $COINGITHUB $COINSRCDIR > /dev/null 2>&1
     cd $COINSRCDIR > /dev/null 2>&1
     sudo chmod +x share/genbuild.sh > /dev/null 2>&1
@@ -123,7 +124,6 @@ compileWallet() {
 installWallet() {
     echo
     echo -e "[7/${MAX}] Configuring wallet. Please wait..."
-    echo -e "NOTE: This could take 30 minutes- go grab a coffee..."
     sudo make install > /dev/null 2>&1
     echo -e "${NONE}${GREEN}* Completed${NONE}";
 }
