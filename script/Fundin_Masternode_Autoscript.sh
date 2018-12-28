@@ -109,7 +109,7 @@ installDependencies() {
 compileWallet() {
     echo
     echo -e "[6/${MAX}] Compiling wallet. Please wait..."
-    echo -e "NOTE: This could take 30 minutes- go grab a coffee..."
+    echo -e "${YELLOW}NOTE: This could take 30 minutes- go grab a coffee...${NONE}"
     git clone $COINGITHUB $COINSRCDIR > /dev/null 2>&1
     cd $COINSRCDIR > /dev/null 2>&1
     sudo chmod +x share/genbuild.sh > /dev/null 2>&1
@@ -142,7 +142,7 @@ configureWallet() {
 
     sleep 10
 
-    echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcport=${COINRPCPORT}\nrpcallowip=127.0.0.1\nlisten=1\nserver=1\ndaemon=1\nstaking=1\nmaxconnections=256\nexternalip=${mnip}:${COINPORT}\nmasternodeaddr=${mnip}:${COINPORT}\nmasternode=1\nmasternodeprivkey=${mnkey}" > /root/$COINCORE/$COINCONFIG
+    echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcallowip=127.0.0.1\nlisten=1\nserver=1\ndaemon=1\nstaking=1\nlogtimestamps=1\nmaxconnections=256\nexternalip=${mnip}:${COINPORT}\nmasternodeaddr=${mnip}:${COINPORT}\nbind=${mnip}:${COINPORT}\nmasternode=1\nmasternodeprivkey=${mnkey}" > /root/$COINCORE/$COINCONFIG
     echo -e "${NONE}${GREEN}* Completed${NONE}";
 }
 
@@ -204,7 +204,7 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
     echo
     echo -e "${CYAN}masternode1 ${mnip}:${COINPORT} ${mnkey} tx index${NONE}"
     echo
-    echo -e "${BOLD}Thank you for your support towards Fundin Coin You are now a member of Fundin Crowdfunding DAO.${NONE}"
+    echo -e "${BOLD}${GREEN}Thank you for your support towards Fundin Coin You are now a member of Fundin Crowdfunding DAO.${NONE}"
     echo
 else
     echo && echo "Installation cancelled" && echo
