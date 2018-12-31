@@ -1,8 +1,5 @@
 Fundin Core integration/staging repository
 =====================================
-
-[![Build Status](https://travis-ci.org/fundin/fundin.svg?branch=master)](https://travis-ci.org/fundin/fundin)
-
 Fundin is a revolutionary cryptocurrency, developed with a motive to enhance crowdfunding process by securing Backers who are always in the risk of losing investments in new products and services despite paying heavy fees in those platforms.
 - Anonymized transactions using zerocoin technology
 - Pow and PoS, allowing very low transaction fees and energy expenditure, and staking rewards to all participants in the network
