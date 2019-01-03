@@ -881,7 +881,7 @@ UniValue createmasternodebroadcast(const UniValue& params, bool fHelp)
         throw runtime_error(
             "createmasternodebroadcast \"command\" ( \"alias\")\n"
             "\nCreates a masternode broadcast message for one or all masternodes configured in masternode.conf\n" +
-            HelpRequiringPassfdnase() + "\n"
+            HelpRequiringpassphrase() + "\n"
 
             "\nArguments:\n"
             "1. \"command\"      (string, required) \"alias\" for single masternode, \"all\" for all masternodes\n"

@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
+        <source>passphrase Dialog</source>
         <translation>암호 대화상자</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>암호 입력</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>새로운 암호</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>새로운 암호 확인</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>익명화 및 스테이킹 전용</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>지갑에 새로운 암호를 입력해주세요. &lt;br/&gt;&lt;b&gt;10자리 이상의 임의의 문자&lt;/b&gt; 또는, &lt;b&gt;8개 이상의 단어&lt;/b&gt;로 구성된 암호를 입력해주세요.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>지갑 암호화</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>이 작업은 지갑의 암호를 풀어 지갑을 잠금해제를 진행해야 합니다.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>지갑 잠금해제</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>이 작업은 지갑 암호화 해제를 하셔야 가능합니다.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>지갑 암호화 해제</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>암호 변경</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>지갑에 사용할 이전 암호와 새로운 암호를 입력해주세요.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 FDN를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>내부 오류로 인해 지갑 암호화에 실패했습니다. 지갑이 암호화되지 않았습니다.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>암호가 일치하지 않습니다.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>지갑 잠금해제 실패</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>입력한 지갑 암호가 올바르지 않습니다.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>지갑 암호화 해제 실패</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>지갑 암호가 변경되었습니다.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 암호화</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>BIP 38을 사용하여 암호화 할 Fundin 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
+        <source>passphrase: </source>
         <translation>암호:</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>&amp;BIP 38 암호화 해제</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>BIP 38 암호화 된 개인 키를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 키를 암호해제 후 '주소 가져오기'를 클릭하면 개인 키가 지갑에 추가됩니다.</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>"키 암호해제"를 클릭하여 키를 입력해주세요.</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>입력한 암호 문구가 잘못되었습니다.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>암호해제에 실패하였습니다.</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>키와 암호를 확인하고 다시 시도해주세요.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>다른 위치에 지갑 백업</translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
+        <source>&amp;Change passphrase...</source>
         <translation>&amp;암호 변경...</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>지갑 암호화에 사용되는 암호 변경</translation>
     </message>
     <message>
@@ -654,7 +654,7 @@
         <translation>&amp;BIP38 도구</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>암호를 사용하여 개인 키 암호화 및 암호해제</translation>
     </message>
     <message>
@@ -2384,7 +2384,7 @@ https://www.transifex.com/fundin-project/fundin-project-translations</translatio
         <translation>제로 코인 기능 상태가 Fundin 네트워크 상에서 이루어지지 않습니다.</translation>
     </message>
     <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passfdnase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
         <translation>Error : 지갑이 잠겨있습니다. 먼저 지갑을 열어주세요.</translation>
     </message>
     <message>

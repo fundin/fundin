@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>AskPassfdnaseDialog</class>
- <widget class="QDialog" name="AskPassfdnaseDialog">
+ <class>AskpassphraseDialog</class>
+ <widget class="QDialog" name="AskpassphraseDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Passfdnase Dialog</string>
+   <string>passphrase Dialog</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="sizeConstraint">
@@ -53,7 +53,7 @@
      <item row="0" column="0">
       <widget class="QLabel" name="passLabel1">
        <property name="text">
-        <string>Enter passfdnase</string>
+        <string>Enter passphrase</string>
        </property>
       </widget>
      </item>
@@ -67,7 +67,7 @@
      <item row="1" column="0">
       <widget class="QLabel" name="passLabel2">
        <property name="text">
-        <string>New passfdnase</string>
+        <string>New passphrase</string>
        </property>
       </widget>
      </item>
@@ -81,7 +81,7 @@
      <item row="2" column="0">
       <widget class="QLabel" name="passLabel3">
        <property name="text">
-        <string>Repeat new passfdnase</string>
+        <string>Repeat new passphrase</string>
        </property>
       </widget>
      </item>
@@ -143,7 +143,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>AskPassfdnaseDialog</receiver>
+   <receiver>AskpassphraseDialog</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -159,7 +159,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>AskPassfdnaseDialog</receiver>
+   <receiver>AskpassphraseDialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">

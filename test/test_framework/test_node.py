@@ -237,12 +237,12 @@ class TestNode():
                     assert_msg = "fundind should have exited with expected error " + expected_msg
                 raise AssertionError(assert_msg)
 
-    def node_encrypt_wallet(self, passfdnase):
+    def node_encrypt_wallet(self, passphrase):
         """"Encrypts the wallet.
 
         This causes fundind to shutdown, so this method takes
         care of cleaning up resources."""
-        self.encryptwallet(passfdnase)
+        self.encryptwallet(passphrase)
         self.wait_until_stopped()
 
     def add_p2p_connection(self, p2p_conn, *args, **kwargs):

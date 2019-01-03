@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
+        <source>passphrase Dialog</source>
         <translation>Inserimento parola d'ordine</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>Inserire parola d'ordine</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>Nuova parola d'ordine</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>Ripetere la nuova parola d'ordine</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Esclusivamente per anonimizzazione e staking</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Inserisci la nuova parola d'ordine per il portafoglio.&lt;br/&gt;Si raccomanda di usare una parola d'ordine di &lt;b&gt;dieci o più caratteri casuali&lt;/b&gt;, oppure di &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Crittografa portafoglio</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Questa operazione richiede la parola d'ordine per sbloccare il portafoglio.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Sblocca portafoglio</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Questa operazione richiede la parola d'ordine per decrittografare il portafoglio.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Decrittografa portafoglio</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>Cambia parola d'ordine</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Inserire la vecchia e la nuova parola d'ordine per il portafoglio.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI FDN&lt;7b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>La cifratura del portafoglio è fallita a causa di un errore interno. Il portafoglio non è stato crittografato.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Le parole d'ordine fornite con coincidono.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Sblocco portafoglio fallito</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>La frase immessa per la decifrazione del portafoglio era errata.</translation>
     </message>
     <message>
@@ -220,8 +220,8 @@
         <translation>Decriptazione portafoglio fallita</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
-        <translation>La passfdnase del portafoglio è stata modificata correttamente.</translation>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>La passphrase del portafoglio è stata modificata correttamente.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -239,8 +239,8 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Fundin che desideri crittografare utilizzando BIP 38. Inserisci una passfdnase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo Fundin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -267,8 +267,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
-        <translation>Passfdnase:</translation>
+        <source>passphrase: </source>
+        <translation>passphrase:</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -299,8 +299,8 @@
         <translation>&amp;BIP 38 Decripta</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Immettere la chiave privata codificata BIP 38. Inserire la passfdnase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
         <source>The Fundin address the message was signed with</source>
@@ -331,7 +331,7 @@
         <translation>Fai clic su "Decripta Chiave" per calcolare la chiave</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>La frase inserita non è valida.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Decriptazione fallita.</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Controllare la chiave e la frase e riprovare.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Fa una copia di sicurezza del tuo portafoglio in un'altra posizione</translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
+        <source>&amp;Change passphrase...</source>
         <translation>&amp;Modifica parola d'ordine...</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Modifica la parola d'ordine utilizzata per la crittografia del portafoglio</translation>
     </message>
     <message>
@@ -630,8 +630,8 @@
         <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Fundin specifici</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
-        <translation>Crittografa e decrittografa le chiavi private usando una passfdnase</translation>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <translation>Crittografa e decrittografa le chiavi private usando una passphrase</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>

@@ -114,22 +114,22 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
-        <translation>Passfdnasendialog</translation>
+        <source>passphrase Dialog</source>
+        <translation>passphrasendialog</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
-        <translation>Passfdnase eingeben</translation>
+        <source>Enter passphrase</source>
+        <translation>passphrase eingeben</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
-        <translation>Neue Passfdnase</translation>
+        <source>New passphrase</source>
+        <translation>Neue passphrase</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
-        <translation>Neue Passfdnase wiederholen</translation>
+        <source>Repeat new passphrase</source>
+        <translation>Neue passphrase wiederholen</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
@@ -140,36 +140,36 @@
         <translation>Nur zur Anonymisierung und "Staking"</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Geben Sie die neue Passfdnase für die Wallet ein.&lt;br&gt;Bitte benutzen Sie eine Passfdnase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Geben Sie die neue passphrase für die Wallet ein.&lt;br&gt;Bitte benutzen Sie eine passphrase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
         <translation>Wallet verschlüsseln</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
-        <translation>Dieser Vorgang benötigt ihre Passfdnase, um die Wallet zu entsperren.</translation>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Dieser Vorgang benötigt ihre passphrase, um die Wallet zu entsperren.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
         <translation>Wallet entsperren</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
-        <translation>Dieser Vorgang benötigt ihre Passfdnase, um die Wallet zu entschlüsseln.</translation>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Dieser Vorgang benötigt ihre passphrase, um die Wallet zu entschlüsseln.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
         <translation>Wallet entschlüsseln</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
-        <translation>Passfdnase ändern</translation>
+        <source>Change passphrase</source>
+        <translation>passphrase ändern</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
-        <translation>Geben Sie die alte und neue Wallet-Passfdnase ein.</translation>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Geben Sie die alte und neue Wallet-passphrase ein.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -184,8 +184,8 @@
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passfdnase verlieren werden Sie &lt;b&gt;alle ihre FDNs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre passphrase verlieren werden Sie &lt;b&gt;alle ihre FDNs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -204,24 +204,24 @@
         <translation>Die Wallet-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Wallet wurde nicht verschlüsselt.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
-        <translation>Die eingegebenen Passfdnasen stimmen nicht überein.</translation>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Die eingegebenen passphrasen stimmen nicht überein.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
         <translation>Wallet-Entsperrung fehlgeschlagen</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
-        <translation>Die eingegebene Passfdnase zur Wallet-Entschlüsselung war nicht korrekt.</translation>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Die eingegebene passphrase zur Wallet-Entschlüsselung war nicht korrekt.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
         <translation>Wallet-Entschlüsselung fehlgeschlagen</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
-        <translation>Die Wallet-Passfdnase wurde erfolgreich geändert.</translation>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Die Wallet-passphrase wurde erfolgreich geändert.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Gib eine Fundin Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
@@ -267,8 +267,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
-        <translation>Passfdnase: </translation>
+        <source>passphrase: </source>
+        <translation>passphrase: </translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -299,8 +299,8 @@
         <translation>&amp;BIP 38 Entschlüsseln</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passfdnase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
         <source>The Fundin address the message was signed with</source>
@@ -331,8 +331,8 @@
         <translation>Klicke "Schlüssel entschlüsseln" um den Schlüssel zu berechnen</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
-        <translation>Die eingegebene Passfdnase ist ungültig. </translation>
+        <source>The entered passphrase is invalid. </source>
+        <translation>Die eingegebene passphrase ist ungültig. </translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -363,8 +363,8 @@
         <translation>Entschlüsselung fehlgeschlagen.</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
-        <translation>Bitte überprüfe den Schlüssel und die Passfdnase und versuche es erneut.</translation>
+        <source>Please check the key and passphrase and try again.</source>
+        <translation>Bitte überprüfe den Schlüssel und die passphrase und versuche es erneut.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
@@ -470,12 +470,12 @@
         <translation>Eine Wallet-Sicherungskopie erstellen und abspeichern</translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
-        <translation>Passfdnase &amp;ändern...</translation>
+        <source>&amp;Change passphrase...</source>
+        <translation>passphrase &amp;ändern...</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
-        <translation>Ändert die Passfdnase, die für die Wallet-Verschlüsselung benutzt wird</translation>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Ändert die passphrase, die für die Wallet-Verschlüsselung benutzt wird</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -2375,8 +2375,8 @@ https://www.transifex.com/fundin-project/fundin-project-translations</translatio
         <translation>Die Zerocoin Funktionalität ist im Fundin Netzwerk im Moment nicht freigeschaltet.</translation>
     </message>
     <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passfdnase first.</source>
-        <translation>Fehler: Ihre Wallet ist gesperrt. Bitte geben Sie zuerst ihre Wallet Passfdnase ein.</translation>
+        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
+        <translation>Fehler: Ihre Wallet ist gesperrt. Bitte geben Sie zuerst ihre Wallet passphrase ein.</translation>
     </message>
     <message>
         <source>Message: Enter an amount &gt; 0.</source>

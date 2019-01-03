@@ -30,7 +30,7 @@
        <item>
         <widget class="QLabel" name="infoLabel_ENC">
          <property name="text">
-          <string>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</string>
+          <string>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -115,7 +115,7 @@
             </size>
            </property>
            <property name="text">
-            <string>Passfdnase: </string>
+            <string>passphrase: </string>
            </property>
            <property name="alignment">
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -123,7 +123,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="passfdnaseIn_ENC">
+          <widget class="QLineEdit" name="passphraseIn_ENC">
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
@@ -262,7 +262,7 @@
        <item>
         <widget class="QLabel" name="infoLabel_DEC">
          <property name="text">
-          <string>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</string>
+          <string>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -327,7 +327,7 @@
             </size>
            </property>
            <property name="text">
-            <string>Passfdnase: </string>
+            <string>passphrase: </string>
            </property>
            <property name="alignment">
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -335,7 +335,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="passfdnaseIn_DEC">
+          <widget class="QLineEdit" name="passphraseIn_DEC">
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
@@ -348,7 +348,7 @@
          <item>
           <widget class="QPushButton" name="decryptKeyButton_DEC">
            <property name="toolTip">
-            <string>Decrypt the entered key using the passfdnase</string>
+            <string>Decrypt the entered key using the passphrase</string>
            </property>
            <property name="text">
             <string>Decrypt &amp;Key</string>

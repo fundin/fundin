@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
+        <source>passphrase Dialog</source>
         <translation>Кодове слово</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>Введіть кодове слово</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>Нове кодове слово</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>Повторіть кодове слово</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Лише для анонімності</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Введіть нове кодове слово гамамнця. &lt;br/&gt;Будь ласка, використовуйте кодове слово з &lt;b&gt;десяти і більше хаотичних символів&lt;/b&gt;, або &lt;b&gt;восьми і більше слів &lt;/b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Шифрувати гаманець</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Для розблокування гаманця потрібно його кодове слово.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Розблокувати гаманець</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Для розшифрування гаманція потрібно його кодове слово.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Розшифрувати гаманець</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>Змінити кодове слово</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Введіть попереднє і нове кодове слово гаманця.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Ви впевнені, що хочете зашифрувати Ваш гаманець?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>Попередження: Якщо після шифрування гаманця Ви &lt;b&gt;загубите кодове слово, то ви втратите всі Ваші FDN'и&lt;/b&gt;!</translation>
     </message>
     <message>

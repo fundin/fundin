@@ -22,7 +22,7 @@
 
 void DecryptAES(uint256 encryptedIn, uint256 decryptionKey, uint256& output);
 
-void ComputePreFactor(std::string strPassfdnase, std::string strSalt, uint256& prefactor);
+void ComputePreFactor(std::string strpassphrase, std::string strSalt, uint256& prefactor);
 
 void ComputePassfactor(std::string ownersalt, uint256 prefactor, uint256& passfactor);
 
@@ -32,8 +32,8 @@ void ComputeSeedBPass(CPubKey passpoint, std::string strAddressHash, std::string
 
 void ComputeFactorB(uint256 seedB, uint256& factorB);
 
-std::string BIP38_Encrypt(std::string strAddress, std::string strPassfdnase, uint256 privKey, bool fCompressed);
-bool BIP38_Decrypt(std::string strPassfdnase, std::string strEncryptedKey, uint256& privKey, bool& fCompressed);
+std::string BIP38_Encrypt(std::string strAddress, std::string strpassphrase, uint256 privKey, bool fCompressed);
+bool BIP38_Decrypt(std::string strpassphrase, std::string strEncryptedKey, uint256& privKey, bool& fCompressed);
 
 std::string AddressToBip38Hash(std::string address);
 

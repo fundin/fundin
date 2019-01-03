@@ -252,16 +252,16 @@ bool CWallet::LoadMultiSig(const CScript& dest)
     return CCryptoKeyStore::AddMultiSig(dest);
 }
 
-bool CWallet::Unlock(const SecureString& strWalletPassfdnase, bool anonymizeOnly)
+bool CWallet::Unlock(const SecureString& strWalletpassphrase, bool anonymizeOnly)
 {
-    SecureString strWalletPassfdnaseFinal;
+    SecureString strWalletpassphraseFinal;
 
     if (!IsLocked()) {
         fWalletUnlockAnonymizeOnly = anonymizeOnly;
         return true;
     }
 
-    strWalletPassfdnaseFinal = strWalletPassfdnase;
+    strWalletpassphraseFinal = strWalletpassphrase;
 
 
     CCrypter crypter;
@@ -270,7 +270,7 @@ bool CWallet::Unlock(const SecureString& strWalletPassfdnase, bool anonymizeOnly
     {
         LOCK(cs_wallet);
         BOOST_FOREACH (const MasterKeyMap::value_type& pMasterKey, mapMasterKeys) {
-            if (!crypter.SetKeyFromPassfdnase(strWalletPassfdnaseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
+            if (!crypter.SetKeyFrompassphrase(strWalletpassphraseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
                 return false;
             if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, vMasterKey))
                 continue; // try another master key
@@ -283,10 +283,10 @@ bool CWallet::Unlock(const SecureString& strWalletPassfdnase, bool anonymizeOnly
     return false;
 }
 
-bool CWallet::ChangeWalletPassfdnase(const SecureString& strOldWalletPassfdnase, const SecureString& strNewWalletPassfdnase)
+bool CWallet::ChangeWalletpassphrase(const SecureString& strOldWalletpassphrase, const SecureString& strNewWalletpassphrase)
 {
     bool fWasLocked = IsLocked();
-    SecureString strOldWalletPassfdnaseFinal = strOldWalletPassfdnase;
+    SecureString strOldWalletpassphraseFinal = strOldWalletpassphrase;
 
     {
         LOCK(cs_wallet);
@@ -295,25 +295,25 @@ bool CWallet::ChangeWalletPassfdnase(const SecureString& strOldWalletPassfdnase,
         CCrypter crypter;
         CKeyingMaterial vMasterKey;
         BOOST_FOREACH (MasterKeyMap::value_type& pMasterKey, mapMasterKeys) {
-            if (!crypter.SetKeyFromPassfdnase(strOldWalletPassfdnaseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
+            if (!crypter.SetKeyFrompassphrase(strOldWalletpassphraseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
                 return false;
             if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, vMasterKey))
                 return false;
             if (CCryptoKeyStore::Unlock(vMasterKey)) {
                 int64_t nStartTime = GetTimeMillis();
-                crypter.SetKeyFromPassfdnase(strNewWalletPassfdnase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);
+                crypter.SetKeyFrompassphrase(strNewWalletpassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);
                 pMasterKey.second.nDeriveIterations = pMasterKey.second.nDeriveIterations * (100 / ((double)(GetTimeMillis() - nStartTime)));
 
                 nStartTime = GetTimeMillis();
-                crypter.SetKeyFromPassfdnase(strNewWalletPassfdnase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);
+                crypter.SetKeyFrompassphrase(strNewWalletpassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);
                 pMasterKey.second.nDeriveIterations = (pMasterKey.second.nDeriveIterations + pMasterKey.second.nDeriveIterations * 100 / ((double)(GetTimeMillis() - nStartTime))) / 2;
 
                 if (pMasterKey.second.nDeriveIterations < 25000)
                     pMasterKey.second.nDeriveIterations = 25000;
 
-                LogPrintf("Wallet passfdnase changed to an nDeriveIterations of %i\n", pMasterKey.second.nDeriveIterations);
+                LogPrintf("Wallet passphrase changed to an nDeriveIterations of %i\n", pMasterKey.second.nDeriveIterations);
 
-                if (!crypter.SetKeyFromPassfdnase(strNewWalletPassfdnase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
+                if (!crypter.SetKeyFrompassphrase(strNewWalletpassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
                     return false;
                 if (!crypter.Encrypt(vMasterKey, pMasterKey.second.vchCryptedKey))
                     return false;
@@ -529,7 +529,7 @@ bool CWallet::GetVinAndKeysFromOutput(COutput out, CTxIn& txinRet, CPubKey& pubK
     return true;
 }
 
-bool CWallet::EncryptWallet(const SecureString& strWalletPassfdnase)
+bool CWallet::EncryptWallet(const SecureString& strWalletpassphrase)
 {
     if (IsCrypted())
         return false;
@@ -546,11 +546,11 @@ bool CWallet::EncryptWallet(const SecureString& strWalletPassfdnase)
 
     CCrypter crypter;
     int64_t nStartTime = GetTimeMillis();
-    crypter.SetKeyFromPassfdnase(strWalletPassfdnase, kMasterKey.vchSalt, 25000, kMasterKey.nDerivationMethod);
+    crypter.SetKeyFrompassphrase(strWalletpassphrase, kMasterKey.vchSalt, 25000, kMasterKey.nDerivationMethod);
     kMasterKey.nDeriveIterations = 2500000 / ((double)(GetTimeMillis() - nStartTime));
 
     nStartTime = GetTimeMillis();
-    crypter.SetKeyFromPassfdnase(strWalletPassfdnase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod);
+    crypter.SetKeyFrompassphrase(strWalletpassphrase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod);
     kMasterKey.nDeriveIterations = (kMasterKey.nDeriveIterations + kMasterKey.nDeriveIterations * 100 / ((double)(GetTimeMillis() - nStartTime))) / 2;
 
     if (kMasterKey.nDeriveIterations < 25000)
@@ -558,7 +558,7 @@ bool CWallet::EncryptWallet(const SecureString& strWalletPassfdnase)
 
     LogPrintf("Encrypting Wallet with an nDeriveIterations of %i\n", kMasterKey.nDeriveIterations);
 
-    if (!crypter.SetKeyFromPassfdnase(strWalletPassfdnase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod))
+    if (!crypter.SetKeyFrompassphrase(strWalletpassphrase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod))
         return false;
     if (!crypter.Encrypt(vMasterKey, kMasterKey.vchCryptedKey))
         return false;
@@ -603,7 +603,7 @@ bool CWallet::EncryptWallet(const SecureString& strWalletPassfdnase)
         }
 
         Lock();
-        Unlock(strWalletPassfdnase);
+        Unlock(strWalletpassphrase);
         NewKeyPool();
         Lock();
 

@@ -36,7 +36,7 @@ QT_TS = \
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
-  qt/forms/askpassfdnasedialog.ui \
+  qt/forms/askpassphrasedialog.ui \
   qt/forms/bip38tooldialog.ui \
   qt/forms/coincontroldialog.ui \
   qt/forms/blockexplorer.ui \
@@ -63,7 +63,7 @@ QT_FORMS_UI = \
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
   qt/moc_addresstablemodel.cpp \
-  qt/moc_askpassfdnasedialog.cpp \
+  qt/moc_askpassphrasedialog.cpp \
   qt/moc_bantablemodel.cpp \
   qt/moc_bip38tooldialog.cpp \
   qt/moc_bitcoinaddressvalidator.cpp \
@@ -141,7 +141,7 @@ PROTOBUF_PROTO = qt/paymentrequest.proto
 BITCOIN_QT_H = \
   qt/addressbookpage.h \
   qt/addresstablemodel.h \
-  qt/askpassfdnasedialog.h \
+  qt/askpassphrasedialog.h \
   qt/bantablemodel.h \
   qt/bip38tooldialog.h \
   qt/bitcoinaddressvalidator.h \
@@ -308,7 +308,7 @@ if ENABLE_WALLET
 BITCOIN_QT_CPP += \
   qt/addressbookpage.cpp \
   qt/addresstablemodel.cpp \
-  qt/askpassfdnasedialog.cpp \
+  qt/askpassphrasedialog.cpp \
   qt/bip38tooldialog.cpp \
   qt/blockexplorer.cpp \
   qt/coincontroldialog.cpp \

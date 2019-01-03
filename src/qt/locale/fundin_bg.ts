@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
+        <source>passphrase Dialog</source>
         <translation>Поле за парола</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>Въведете парола</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>Нова парола</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>Повторете новата парола</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Само за анонимизация и стейкване</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Въведете нова паролата за портфейла.&lt;br/&gt;Моля, използвайте парола от &lt;b&gt;десет или повече случайни символа&lt;/b&gt; или &lt;b&gt;осем или повече думи&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Шифрирай портфейла</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Това действие изисква вашата портфейлна парола, за да отключи портфейла.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Отключване на портфейла</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Това действие изисква вашата портфейлна парола, за да декриптира портфейла.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Декриптиране на портфейла</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>Смени паролата</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Въведете старата и новата пароли за портфейла.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ FDN&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>Шифрирането на портфейла се провали, поради вътрешна грешка. Вашият портфейл не беше шифриран.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Попълнените пароли не съвпадат.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Отключването на портфейла беше неуспешно</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Паролата, въведена за декриптирането на портфейла, е неправилна.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Декриптирането на портфейла беше неуспешно</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Паролата на портфейла беше сменена успешно.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Въведете Fundin адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Алт+П</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
+        <source>passphrase: </source>
         <translation>Парола:</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>&amp;BIP 38 Дешфриране</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>Избери "Дешифрирай Ключ" за да изчислим ключа</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Въведената фраза е невалидна.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Неуспешно дешифриране.</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Моля проверете ключа и фразата и опитайте отново.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Направи резерва на друго място</translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
+        <source>&amp;Change passphrase...</source>
         <translation>&amp;Промени фразата...</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Промени фразата използвана за шифриране</translation>
     </message>
     <message>
@@ -654,7 +654,7 @@
         <translation>&amp;BIP38 инструмент</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Шифрирай и дешифрирай личните ключове с фраза</translation>
     </message>
     <message>
@@ -2380,7 +2380,7 @@ https://www.transifex.com/fundin-project/fundin-project-translations</translatio
         <translation>Zerocoin функцията все още не е активирана в Fundin мрежата.</translation>
     </message>
     <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passfdnase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
         <translation>Грешка: Портфейла е заключен. Моля първо въведете Вашата парола.</translation>
     </message>
     <message>

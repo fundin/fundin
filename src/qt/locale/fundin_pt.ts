@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
+        <source>passphrase Dialog</source>
         <translation>Caixa de diálogo de Senha</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>Digite sua senha</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>Nova senha</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>Repetir senha</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Apenas para anonimização e staking</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Digite a nova senha para a carteira.&lt;br/&gt;Use uma senha com &lt;b&gt;10 ou mais caracteres aleatórios&lt;/b&gt;, ou &lt;b&gt;oito palavras ou mais&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Criptografar carteira</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Para esta operação, é necessário desbloquear a carteira com a sua senha.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Desbloquear carteira</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Para esta operação, é necessário desbloquear a carteira com a sua senha.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Descriptografar carteira</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>Alterar senha</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Digite a senha antiga e a nova senha</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA FDN&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>A encriptação da carteira falhou por causa de um erro interno. Sua carteira não foi encriptada.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>As senhas digitadas não conferem.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Falha ao desbloquear a carteira</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>A senha usada para decriptar a carteira estava incorreta.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Decriptação da carteira falhou</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Senha da carteira alterada com sucesso.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Digite um endereço Fundin que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
+        <source>passphrase: </source>
         <translation>Senha:</translation>
     </message>
     <message>

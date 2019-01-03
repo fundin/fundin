@@ -143,26 +143,26 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassfdnasedialog.ui" line="+26"/>
-        <source>Passfdnase Dialog</source>
-        <translation>Passfdnase Dialog</translation>
+        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
+        <source>passphrase Dialog</source>
+        <translation>passphrase Dialog</translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>Enter passfdnase</source>
-        <translation>Enter passfdnase</translation>
+        <source>Enter passphrase</source>
+        <translation>Enter passphrase</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>New passfdnase</source>
-        <translation>New passfdnase</translation>
+        <source>New passphrase</source>
+        <translation>New passphrase</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Repeat new passfdnase</source>
-        <translation>Repeat new passfdnase</translation>
+        <source>Repeat new passphrase</source>
+        <translation>Repeat new passphrase</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -175,9 +175,9 @@
         <translation>For anonymization and staking only</translation>
     </message>
     <message>
-        <location filename="../askpassfdnasedialog.cpp" line="+44"/>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
+        <location filename="../askpassphrasedialog.cpp" line="+44"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -186,8 +186,8 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
-        <translation>This operation needs your wallet passfdnase to unlock the wallet.</translation>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -196,8 +196,8 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
-        <translation>This operation needs your wallet passfdnase to decrypt the wallet.</translation>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -206,13 +206,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Change passfdnase</source>
-        <translation>Change passfdnase</translation>
+        <source>Change passphrase</source>
+        <translation>Change passphrase</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enter the old and new passfdnase to the wallet.</source>
-        <translation>Enter the old and new passfdnase to the wallet.</translation>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Enter the old and new passphrase to the wallet.</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -261,8 +261,8 @@
     <message>
         <location line="+5"/>
         <location line="+35"/>
-        <source>The supplied passfdnases do not match.</source>
-        <translation>The supplied passfdnases do not match.</translation>
+        <source>The supplied passphrases do not match.</source>
+        <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
         <location line="-26"/>
@@ -273,8 +273,8 @@
         <location line="+1"/>
         <location line="+8"/>
         <location line="+13"/>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
-        <translation>The passfdnase entered for the wallet decryption was incorrect.</translation>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
         <location line="-14"/>
@@ -283,8 +283,8 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Wallet passfdnase was successfully changed.</source>
-        <translation>Wallet passfdnase was successfully changed.</translation>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Wallet passphrase was successfully changed.</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -344,7 +344,7 @@
     <message>
         <location line="+14"/>
         <location line="+185"/>
-        <source>Passfdnase: </source>
+        <source>passphrase: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -386,7 +386,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -426,7 +426,7 @@
     </message>
     <message>
         <location line="+90"/>
-        <source>The entered passfdnase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,7 +468,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Please check the key and passfdnase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -607,13 +607,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Change Passfdnase...</source>
-        <translation>&amp;Change Passfdnase...</translation>
+        <source>&amp;Change passphrase...</source>
+        <translation>&amp;Change passphrase...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Change the passfdnase used for wallet encryption</source>
-        <translation>Change the passfdnase used for wallet encryption</translation>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3437,7 +3437,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="-99"/>
-        <source>Error: Your wallet is locked. Please enter the wallet passfdnase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

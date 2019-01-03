@@ -114,22 +114,22 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
-        <translation>Passfdnase Dialog</translation>
+        <source>passphrase Dialog</source>
+        <translation>passphrase Dialog</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
-        <translation>Enter passfdnase</translation>
+        <source>Enter passphrase</source>
+        <translation>Enter passphrase</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
-        <translation>New passfdnase</translation>
+        <source>New passphrase</source>
+        <translation>New passphrase</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
-        <translation>Repeat new passfdnase</translation>
+        <source>Repeat new passphrase</source>
+        <translation>Repeat new passphrase</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
@@ -140,36 +140,36 @@
         <translation>For anonymization and staking only</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
         <translation>Encrypt wallet</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
-        <translation>This operation needs your wallet passfdnase to unlock the wallet.</translation>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
         <translation>Unlock wallet</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
-        <translation>This operation needs your wallet passfdnase to decrypt the wallet.</translation>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
         <translation>Decrypt wallet</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
-        <translation>Change passfdnase</translation>
+        <source>Change passphrase</source>
+        <translation>Change passphrase</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
-        <translation>Enter the old and new passfdnase to the wallet.</translation>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Enter the old and new passphrase to the wallet.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -184,8 +184,8 @@
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -204,24 +204,24 @@
         <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
-        <translation>The supplied passfdnases do not match.</translation>
+        <source>The supplied passphrases do not match.</source>
+        <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
         <translation>Wallet unlock failed</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
-        <translation>The passfdnase entered for the wallet decryption was incorrect.</translation>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
         <translation>Wallet decryption failed</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
-        <translation>Wallet passfdnase was successfully changed.</translation>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Wallet passphrase was successfully changed.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -239,8 +239,8 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -267,8 +267,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
-        <translation>Passfdnase: </translation>
+        <source>passphrase: </source>
+        <translation>passphrase: </translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -299,8 +299,8 @@
         <translation>&amp;BIP 38 Decrypt</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
         <source>The Fundin address the message was signed with</source>
@@ -331,8 +331,8 @@
         <translation>Click "Decrypt Key" to compute key</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
-        <translation>The entered passfdnase is invalid. </translation>
+        <source>The entered passphrase is invalid. </source>
+        <translation>The entered passphrase is invalid. </translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -363,8 +363,8 @@
         <translation>Failed to decrypt.</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
-        <translation>Please check the key and passfdnase and try again.</translation>
+        <source>Please check the key and passphrase and try again.</source>
+        <translation>Please check the key and passphrase and try again.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
@@ -470,12 +470,12 @@
         <translation>Backup wallet to another location</translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
-        <translation>&amp;Change Passfdnase...</translation>
+        <source>&amp;Change passphrase...</source>
+        <translation>&amp;Change passphrase...</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
-        <translation>Change the passfdnase used for wallet encryption</translation>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -646,8 +646,8 @@
         <translation>&amp;BIP38 tool</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
-        <translation>Encrypt and decrypt private keys using a passfdnase</translation>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <translation>Encrypt and decrypt private keys using a passphrase</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>

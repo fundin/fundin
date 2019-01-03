@@ -24,7 +24,7 @@ When disconnecting a node, clear the received buffer so that we do not process a
 Yet another attempt at implementing "minimize to tray" that works on all operating systems.
 Fix Bitcoin-Qt notifications under Growl 1.3.
 Increase required age of Bitcoin-Qt's "not up to date" status from 30 to 90 minutes.
-Implemented missing verifications that led to crash on entering some wrong passfdnases for encrypted wallets.
+Implemented missing verifications that led to crash on entering some wrong passphrases for encrypted wallets.
 Fix default filename suffixes in GNOME save dialog.
 Make the "Send coins" tab use the configured unit type, even on the first attempt.
 Print detailed wallet loading errors to debug.log when it is corrupt.

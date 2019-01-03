@@ -17,7 +17,7 @@ Open your QT Wallet and go to console (from the menu select Tools => Debug Conso
 Dump the private key from your MasterNode's pulic key.
 
 ```
-walletpassfdnase [your_wallet_passfdnase] 600
+walletpassphrase [your_wallet_passphrase] 600
 dumpprivkey [mn_public_key]
 ```
 
@@ -30,7 +30,7 @@ Open your QT Wallet and go to console (from the menu select Tools => Debug Conso
 Import the private key from the step above.
 
 ```
-walletpassfdnase [your_wallet_passfdnase] 600
+walletpassphrase [your_wallet_passphrase] 600
 importprivkey [single_instance_private_key]
 ```
 

@@ -450,18 +450,18 @@ WalletModel::EncryptionStatus WalletModel::getEncryptionStatus() const
 
 }
 
-bool WalletModel::setWalletEncrypted(bool encrypted, const SecureString& passfdnase)
+bool WalletModel::setWalletEncrypted(bool encrypted, const SecureString& passphrase)
 {
     if (encrypted) {
         // Encrypt
-        return wallet->EncryptWallet(passfdnase);
+        return wallet->EncryptWallet(passphrase);
     } else {
         // Decrypt -- TODO; not supported yet
         return false;
     }
 }
 
-bool WalletModel::setWalletLocked(bool locked, const SecureString& passFdnase, bool anonymizeOnly)
+bool WalletModel::setWalletLocked(bool locked, const SecureString& passphrase, bool anonymizeOnly)
 {
     if (locked) {
         // Lock
@@ -469,7 +469,7 @@ bool WalletModel::setWalletLocked(bool locked, const SecureString& passFdnase, b
         return wallet->Lock();
     } else {
         // Unlock
-        return wallet->Unlock(passFdnase, anonymizeOnly);
+        return wallet->Unlock(passphrase, anonymizeOnly);
     }
 }
 
@@ -478,13 +478,13 @@ bool WalletModel::isAnonymizeOnlyUnlocked()
     return wallet->fWalletUnlockAnonymizeOnly;
 }
 
-bool WalletModel::changePassfdnase(const SecureString& oldPass, const SecureString& newPass)
+bool WalletModel::changepassphrase(const SecureString& oldPass, const SecureString& newPass)
 {
     bool retval;
     {
         LOCK(wallet->cs_wallet);
         wallet->Lock(); // Make sure wallet is locked before attempting pass change
-        retval = wallet->ChangeWalletPassfdnase(oldPass, newPass);
+        retval = wallet->ChangeWalletpassphrase(oldPass, newPass);
     }
     return retval;
 }

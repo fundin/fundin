@@ -15,7 +15,7 @@
 #include <openssl/evp.h>
 #include "wallet.h"
 
-bool CCrypter::SetKeyFromPassfdnase(const SecureString& strKeyData, const std::vector<unsigned char>& chSalt, const unsigned int nRounds, const unsigned int nDerivationMethod)
+bool CCrypter::SetKeyFrompassphrase(const SecureString& strKeyData, const std::vector<unsigned char>& chSalt, const unsigned int nRounds, const unsigned int nDerivationMethod)
 {
     if (nRounds < 1 || chSalt.size() != WALLET_CRYPTO_SALT_SIZE)
         return false;

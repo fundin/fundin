@@ -817,11 +817,11 @@ QWidget#PrivacyDialog QProgressBar#obfuscationProgress::chunk {
 }
 /**************************** SETTINGS MENU *********************************************/
 
-/* Encrypt Wallet and Change Passfdnase Dialog */
+/* Encrypt Wallet and Change passphrase Dialog */
 
-QDialog#AskPassfdnaseDialog QLabel#passLabel1,
-QDialog#AskPassfdnaseDialog QLabel#passLabel2,
-QDialog#AskPassfdnaseDialog QLabel#passLabel3 {
+QDialog#AskpassphraseDialog QLabel#passLabel1,
+QDialog#AskpassphraseDialog QLabel#passLabel2,
+QDialog#AskpassphraseDialog QLabel#passLabel3 {
 	qproperty-alignment: 'AlignVCenter | AlignRight';
 	min-width: 170px;
 	min-height: 33px;

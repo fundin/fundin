@@ -5,7 +5,7 @@
 #include "multisigdialog.h"
 #include "forms/ui_multisigdialog.h"
 
-#include "askpassfdnasedialog.h"
+#include "askpassphrasedialog.h"
 #include "primitives/transaction.h"
 #include "addressbookpage.h"
 #include "utilstrencodings.h"
@@ -663,7 +663,7 @@ bool MultisigDialog::signMultisigTx(CMutableTransaction& tx, string& errorOut, Q
             if (model->getEncryptionStatus() == model->Locked) {
                 if (!model->requestUnlock(true).isValid()) {
                     // Unlock wallet was cancelled
-                    throw runtime_error("Error: Your wallet is locked. Please enter the wallet passfdnase first.");
+                    throw runtime_error("Error: Your wallet is locked. Please enter the wallet passphrase first.");
                 }
             }
         }

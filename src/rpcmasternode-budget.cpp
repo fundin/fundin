@@ -56,7 +56,7 @@ UniValue mnbudget(const UniValue& params, bool fHelp)
     if (fHelp ||
         (strCommand != "vote-alias" && strCommand != "vote-many" && strCommand != "prepare" && strCommand != "submit" && strCommand != "vote" && strCommand != "getvotes" && strCommand != "getinfo" && strCommand != "show" && strCommand != "projection" && strCommand != "check" && strCommand != "nextblock"))
         throw runtime_error(
-            "mnbudget \"command\"... ( \"passfdnase\" )\n"
+            "mnbudget \"command\"... ( \"passphrase\" )\n"
             "\nVote or show current budgets\n"
             "This command is deprecated, please see individual command documentation for future reference\n\n"
 
@@ -858,7 +858,7 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
     if (fHelp ||
         (strCommand != "suggest" && strCommand != "vote-many" && strCommand != "vote" && strCommand != "show" && strCommand != "getvotes"))
         throw runtime_error(
-            "mnfinalbudget \"command\"... ( \"passfdnase\" )\n"
+            "mnfinalbudget \"command\"... ( \"passphrase\" )\n"
             "Vote or show current budgets\n"
             "\nAvailable commands:\n"
             "  vote-many   - Vote on a finalized budget\n"

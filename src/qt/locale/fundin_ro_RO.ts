@@ -58,7 +58,7 @@
     <name>AddressTableModel</name>
     </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     </context>
 <context>
     <name>Bip38ToolDialog</name>

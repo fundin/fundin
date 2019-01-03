@@ -145,7 +145,7 @@ RPC Commands
 ------------------------
 
 The following new RPC commands are supported:
-- mnbudget "command"... ( "passfdnase" )
+- mnbudget "command"... ( "passphrase" )
  * prepare            - Prepare proposal for network by signing and creating tx
  * submit             - Submit proposal for network
  * vote-many          - Vote on a Fundin initiative
@@ -157,7 +157,7 @@ The following new RPC commands are supported:
  * projection         - Show the projection of which proposals will be paid the next cycle
  * check              - Scan proposals and remove invalid
 
-- mnfinalbudget "command"... ( "passfdnase" )
+- mnfinalbudget "command"... ( "passphrase" )
  * vote-many   - Vote on a finalized budget
  * vote        - Vote on a finalized budget
  * show        - Show existing finalized budgets

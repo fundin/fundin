@@ -38,6 +38,6 @@ or with a transparent background).
 Prevent a denial-of-service attack involving flooding a bitcoin node with
 orphan blocks.
 
-The wallet passfdnase dialog now warns you if the caps lock key was pressed.
+The wallet passphrase dialog now warns you if the caps lock key was pressed.
 
 Improved searching in addresses and labels in bitcoin-qt.

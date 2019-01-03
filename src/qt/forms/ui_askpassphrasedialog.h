@@ -1,13 +1,13 @@
 /********************************************************************************
-** Form generated from reading UI file 'askpassfdnasedialog.ui'
+** Form generated from reading UI file 'askpassphrasedialog.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef UI_ASKPASSFDNASEDIALOG_H
-#define UI_ASKPASSFDNASEDIALOG_H
+#ifndef UI_ASKpassphraseDIALOG_H
+#define UI_ASKpassphraseDIALOG_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
@@ -21,7 +21,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_AskPassfdnaseDialog
+class Ui_AskpassphraseDialog
 {
 public:
     QVBoxLayout *verticalLayout;
@@ -37,21 +37,21 @@ public:
     QCheckBox *anonymizationCheckBox;
     QDialogButtonBox *buttonBox;
 
-    void setupUi(QDialog *AskPassfdnaseDialog)
+    void setupUi(QDialog *AskpassphraseDialog)
     {
-        if (AskPassfdnaseDialog->objectName().isEmpty())
-            AskPassfdnaseDialog->setObjectName(QStringLiteral("AskPassfdnaseDialog"));
-        AskPassfdnaseDialog->resize(598, 222);
+        if (AskpassphraseDialog->objectName().isEmpty())
+            AskpassphraseDialog->setObjectName(QStringLiteral("AskpassphraseDialog"));
+        AskpassphraseDialog->resize(598, 222);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Minimum);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(AskPassfdnaseDialog->sizePolicy().hasHeightForWidth());
-        AskPassfdnaseDialog->setSizePolicy(sizePolicy);
-        AskPassfdnaseDialog->setMinimumSize(QSize(550, 0));
-        verticalLayout = new QVBoxLayout(AskPassfdnaseDialog);
+        sizePolicy.setHeightForWidth(AskpassphraseDialog->sizePolicy().hasHeightForWidth());
+        AskpassphraseDialog->setSizePolicy(sizePolicy);
+        AskpassphraseDialog->setMinimumSize(QSize(550, 0));
+        verticalLayout = new QVBoxLayout(AskpassphraseDialog);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         verticalLayout->setSizeConstraint(QLayout::SetMinimumSize);
-        warningLabel = new QLabel(AskPassfdnaseDialog);
+        warningLabel = new QLabel(AskpassphraseDialog);
         warningLabel->setObjectName(QStringLiteral("warningLabel"));
         warningLabel->setText(QStringLiteral("Placeholder text"));
         warningLabel->setTextFormat(Qt::RichText);
@@ -63,40 +63,40 @@ public:
         formLayout->setObjectName(QStringLiteral("formLayout"));
         formLayout->setSizeConstraint(QLayout::SetMinimumSize);
         formLayout->setFieldGrowthPolicy(QFormLayout::AllNonFixedFieldsGrow);
-        passLabel1 = new QLabel(AskPassfdnaseDialog);
+        passLabel1 = new QLabel(AskpassphraseDialog);
         passLabel1->setObjectName(QStringLiteral("passLabel1"));
 
         formLayout->setWidget(0, QFormLayout::LabelRole, passLabel1);
 
-        passEdit1 = new QLineEdit(AskPassfdnaseDialog);
+        passEdit1 = new QLineEdit(AskpassphraseDialog);
         passEdit1->setObjectName(QStringLiteral("passEdit1"));
         passEdit1->setEchoMode(QLineEdit::Password);
 
         formLayout->setWidget(0, QFormLayout::FieldRole, passEdit1);
 
-        passLabel2 = new QLabel(AskPassfdnaseDialog);
+        passLabel2 = new QLabel(AskpassphraseDialog);
         passLabel2->setObjectName(QStringLiteral("passLabel2"));
 
         formLayout->setWidget(1, QFormLayout::LabelRole, passLabel2);
 
-        passEdit2 = new QLineEdit(AskPassfdnaseDialog);
+        passEdit2 = new QLineEdit(AskpassphraseDialog);
         passEdit2->setObjectName(QStringLiteral("passEdit2"));
         passEdit2->setEchoMode(QLineEdit::Password);
 
         formLayout->setWidget(1, QFormLayout::FieldRole, passEdit2);
 
-        passLabel3 = new QLabel(AskPassfdnaseDialog);
+        passLabel3 = new QLabel(AskpassphraseDialog);
         passLabel3->setObjectName(QStringLiteral("passLabel3"));
 
         formLayout->setWidget(2, QFormLayout::LabelRole, passLabel3);
 
-        passEdit3 = new QLineEdit(AskPassfdnaseDialog);
+        passEdit3 = new QLineEdit(AskpassphraseDialog);
         passEdit3->setObjectName(QStringLiteral("passEdit3"));
         passEdit3->setEchoMode(QLineEdit::Password);
 
         formLayout->setWidget(2, QFormLayout::FieldRole, passEdit3);
 
-        capsLabel = new QLabel(AskPassfdnaseDialog);
+        capsLabel = new QLabel(AskpassphraseDialog);
         capsLabel->setObjectName(QStringLiteral("capsLabel"));
         QFont font;
         font.setBold(true);
@@ -106,7 +106,7 @@ public:
 
         formLayout->setWidget(3, QFormLayout::FieldRole, capsLabel);
 
-        anonymizationCheckBox = new QCheckBox(AskPassfdnaseDialog);
+        anonymizationCheckBox = new QCheckBox(AskpassphraseDialog);
         anonymizationCheckBox->setObjectName(QStringLiteral("anonymizationCheckBox"));
         anonymizationCheckBox->setEnabled(true);
         anonymizationCheckBox->setVisible(false);
@@ -116,7 +116,7 @@ public:
 
         verticalLayout->addLayout(formLayout);
 
-        buttonBox = new QDialogButtonBox(AskPassfdnaseDialog);
+        buttonBox = new QDialogButtonBox(AskpassphraseDialog);
         buttonBox->setObjectName(QStringLiteral("buttonBox"));
         buttonBox->setOrientation(Qt::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
@@ -124,32 +124,32 @@ public:
         verticalLayout->addWidget(buttonBox);
 
 
-        retranslateUi(AskPassfdnaseDialog);
-        QObject::connect(buttonBox, SIGNAL(accepted()), AskPassfdnaseDialog, SLOT(accept()));
-        QObject::connect(buttonBox, SIGNAL(rejected()), AskPassfdnaseDialog, SLOT(reject()));
+        retranslateUi(AskpassphraseDialog);
+        QObject::connect(buttonBox, SIGNAL(accepted()), AskpassphraseDialog, SLOT(accept()));
+        QObject::connect(buttonBox, SIGNAL(rejected()), AskpassphraseDialog, SLOT(reject()));
 
-        QMetaObject::connectSlotsByName(AskPassfdnaseDialog);
+        QMetaObject::connectSlotsByName(AskpassphraseDialog);
     } // setupUi
 
-    void retranslateUi(QDialog *AskPassfdnaseDialog)
+    void retranslateUi(QDialog *AskpassphraseDialog)
     {
-        AskPassfdnaseDialog->setWindowTitle(QApplication::translate("AskPassfdnaseDialog", "Passfdnase Dialog", nullptr));
-        passLabel1->setText(QApplication::translate("AskPassfdnaseDialog", "Enter passfdnase", nullptr));
-        passLabel2->setText(QApplication::translate("AskPassfdnaseDialog", "New passfdnase", nullptr));
-        passLabel3->setText(QApplication::translate("AskPassfdnaseDialog", "Repeat new passfdnase", nullptr));
+        AskpassphraseDialog->setWindowTitle(QApplication::translate("AskpassphraseDialog", "passphrase Dialog", nullptr));
+        passLabel1->setText(QApplication::translate("AskpassphraseDialog", "Enter passphrase", nullptr));
+        passLabel2->setText(QApplication::translate("AskpassphraseDialog", "New passphrase", nullptr));
+        passLabel3->setText(QApplication::translate("AskpassphraseDialog", "Repeat new passphrase", nullptr));
         capsLabel->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        anonymizationCheckBox->setToolTip(QApplication::translate("AskPassfdnaseDialog", "Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.", nullptr));
+        anonymizationCheckBox->setToolTip(QApplication::translate("AskpassphraseDialog", "Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.", nullptr));
 #endif // QT_NO_TOOLTIP
-        anonymizationCheckBox->setText(QApplication::translate("AskPassfdnaseDialog", "For anonymization, automint, and staking only", nullptr));
+        anonymizationCheckBox->setText(QApplication::translate("AskpassphraseDialog", "For anonymization, automint, and staking only", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class AskPassfdnaseDialog: public Ui_AskPassfdnaseDialog {};
+    class AskpassphraseDialog: public Ui_AskpassphraseDialog {};
 } // namespace Ui
 
 QT_END_NAMESPACE
 
-#endif // UI_ASKPASSFDNASEDIALOG_H
+#endif // UI_ASKpassphraseDIALOG_H

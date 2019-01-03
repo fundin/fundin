@@ -32,7 +32,7 @@ new private keys are properly backed up you should:
 
 2. Run it again, then ask it for a new bitcoin address.
 Bitcoin-Qt: Address Book, then New Address...
-bitcoind: run the 'walletpassfdnase' RPC command to unlock the wallet,  then run the 'getnewaddress' RPC command.
+bitcoind: run the 'walletpassphrase' RPC command to unlock the wallet,  then run the 'getnewaddress' RPC command.
 
 3. If your encrypted wallet.dat may have been copied or stolen, send  all of your bitcoins to the new bitcoin address.
 

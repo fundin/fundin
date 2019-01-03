@@ -19,13 +19,13 @@ The following new options are available for fundind and fundin-qt:
  - _-keepassport=_ Connect to KeePassHttp on port (default: 19455)
  - _-keepasskey=_ KeePassHttp key for AES encrypted communication with KeePass
  - _-keepassid=_ KeePassHttp id for the established association
- - _-keepassname=_ Name to construct url for KeePass entry that stores the wallet passfdnase
+ - _-keepassname=_ Name to construct url for KeePass entry that stores the wallet passphrase
 
 The following rpc commands are available:
 
  - _keepass genkey_: generates a base64 encoded 256 bit AES key that can be used for the communication with KeePassHttp. Only necessary for manual configuration. Use init for automatic configuration.
  - _keepass init_: sets up the association between fundind and keepass by generating an AES key and sending an association message to KeePassHttp. This will trigger KeePass to ask for an Id for the association. Returns the association and the base64 encoded string for the AES key.
- - _keepass setpassfdnase_: updates the passfdnase in KeePassHttp to a new value. This should match the passfdnase you intend to use for the wallet. Please note that the standard RPC commands _walletpassfdnasechange_ and the wallet encrption from the QT GUI already send the updates to KeePassHttp, so this is only necessary for manual manipulation of the password.
+ - _keepass setpassphrase_: updates the passphrase in KeePassHttp to a new value. This should match the passphrase you intend to use for the wallet. Please note that the standard RPC commands _walletpassphrasechange_ and the wallet encrption from the QT GUI already send the updates to KeePassHttp, so this is only necessary for manual manipulation of the password.
 
 How to setup
 ----------------
@@ -50,8 +50,8 @@ keepassname=testwallet
 At this point, the association is made. The next action depends on your particular situation:
 
  - current wallet is not yet encrypted. Encrypting the wallet will trigger the integration and stores the password in KeePass (Under the '_KeePassHttp Passwords_' group, named after _keepassname_.
- - current wallet is already encrypted: use "_keepass setpassfdnase_" to store the passfdnase in KeePass.
+ - current wallet is already encrypted: use "_keepass setpassphrase_" to store the passphrase in KeePass.
 
-At this point, the passfdnase is stored in KeePassHttp. When Unlocking the wallet, one can use _keepass_ as the passfdnase to trigger retrieval of the password. This works from the RPC commands as well as the GUI.
+At this point, the passphrase is stored in KeePassHttp. When Unlocking the wallet, one can use _keepass_ as the passphrase to trigger retrieval of the password. This works from the RPC commands as well as the GUI.
 
 Extended guide with screenshots is also available: https://dashtalk.org/threads/keepass-integration.3620/

@@ -88,10 +88,10 @@ def unlock_wallet(fundind):
     t = int(info['unlocked_until'])
     if t <= time.time():
         try:
-            passfdnase = getpass.getpass("Wallet is locked; enter passfdnase: ")
-            fundind.walletpassfdnase(passfdnase, 5)
+            passphrase = getpass.getpass("Wallet is locked; enter passphrase: ")
+            fundind.walletpassphrase(passphrase, 5)
         except:
-            sys.stderr.write("Wrong passfdnase\n")
+            sys.stderr.write("Wrong passphrase\n")
 
     info = fundind.getinfo()
     return int(info['unlocked_until']) > time.time()
@@ -254,7 +254,7 @@ def main():
         fee = Decimal(options.fee)
         amount = Decimal(options.amount)
         while unlock_wallet(fundind) == False:
-            pass # Keep asking for passfdnase until they get it right
+            pass # Keep asking for passphrase until they get it right
         txdata = create_tx(fundind, options.fromaddresses.split(","), options.to, amount, fee)
         sanity_test_fee(fundind, txdata, amount*Decimal("0.01"))
         if options.dry_run:

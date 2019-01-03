@@ -172,7 +172,7 @@ Codesigner only: Sign the windows binaries:
 
     tar xf fundin-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
-    Enter the passfdnase for the key when prompted
+    Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:

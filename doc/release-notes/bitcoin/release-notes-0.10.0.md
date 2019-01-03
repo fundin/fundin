@@ -556,7 +556,7 @@ GUI:
 - `ed3e5e4` [Wallet] Add global boolean whether to pay at least the custom fee (default=true)
 - `e7876b2` [Wallet] Prevent user from paying a non-sense fee
 - `c1c9d5b` Add Smartfee to GUI
-- `e0a25c5` Make askpassfdnase dialog behave more sanely
+- `e0a25c5` Make askpassphrase dialog behave more sanely
 - `94b362d` On close of splashscreen interrupt verifyDB
 - `b790d13` English translation update
 - `8543b0d` Correct tooltip on address book page

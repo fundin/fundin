@@ -10,8 +10,8 @@
 /* Milliseconds between model updates */
 static const int MODEL_UPDATE_DELAY = 1000;
 
-/* AskPassfdnaseDialog -- Maximum passfdnase length */
-static const int MAX_PASSFDNASE_SIZE = 1024;
+/* AskpassphraseDialog -- Maximum passphrase length */
+static const int MAX_passphrase_SIZE = 1024;
 
 /* Fundin GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 32;

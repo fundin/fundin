@@ -5,7 +5,7 @@
 #include "walletview.h"
 
 #include "addressbookpage.h"
-#include "askpassfdnasedialog.h"
+#include "askpassphrasedialog.h"
 #include "bip38tooldialog.h"
 #include "bitcoingui.h"
 #include "blockexplorer.h"
@@ -218,7 +218,7 @@ void WalletView::setWalletModel(WalletModel* walletModel)
         connect(walletModel->getTransactionTableModel(), SIGNAL(rowsInserted(QModelIndex, int, int)),
             this, SLOT(processNewTransaction(QModelIndex, int, int)));
 
-        // Ask for passfdnase if needed
+        // Ask for passphrase if needed
         connect(walletModel, SIGNAL(requireUnlock()), this, SLOT(unlockWallet()));
 
         // Show progress dialog
@@ -362,7 +362,7 @@ void WalletView::encryptWallet(bool status)
 {
     if (!walletModel)
         return;
-    AskPassfdnaseDialog dlg(status ? AskPassfdnaseDialog::Encrypt : AskPassfdnaseDialog::Decrypt, this, walletModel);
+    AskpassphraseDialog dlg(status ? AskpassphraseDialog::Encrypt : AskpassphraseDialog::Decrypt, this, walletModel);
     dlg.exec();
 
     updateEncryptionStatus();
@@ -386,9 +386,9 @@ void WalletView::backupWallet()
     }
 }
 
-void WalletView::changePassfdnase()
+void WalletView::changepassphrase()
 {
-    AskPassfdnaseDialog dlg(AskPassfdnaseDialog::ChangePass, this, walletModel);
+    AskpassphraseDialog dlg(AskpassphraseDialog::ChangePass, this, walletModel);
     dlg.exec();
 }
 
@@ -399,7 +399,7 @@ void WalletView::unlockWallet()
     // Unlock wallet when requested by wallet model
 
     if (walletModel->getEncryptionStatus() == WalletModel::Locked || walletModel->getEncryptionStatus() == WalletModel::UnlockedForAnonymizationOnly) {
-        AskPassfdnaseDialog dlg(AskPassfdnaseDialog::UnlockAnonymize, this, walletModel);
+        AskpassphraseDialog dlg(AskpassphraseDialog::UnlockAnonymize, this, walletModel);
         dlg.exec();
     }
 }
@@ -421,7 +421,7 @@ void WalletView::toggleLockWallet()
 
     // Unlock the wallet when requested
     if (encStatus == walletModel->Locked) {
-        AskPassfdnaseDialog dlg(AskPassfdnaseDialog::UnlockAnonymize, this, walletModel);
+        AskpassphraseDialog dlg(AskpassphraseDialog::UnlockAnonymize, this, walletModel);
         dlg.exec();
     }
 

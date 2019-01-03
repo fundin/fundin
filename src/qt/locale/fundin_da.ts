@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Passfdnase Dialog</source>
+        <source>passphrase Dialog</source>
         <translation>Password dialog</translation>
     </message>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>Indtast Password</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>Nyt password</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>Gentag password</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Kun til staking og anononymisering</translation>
     </message>
     <message>
-        <source>Enter the new passfdnase to the wallet.&lt;br/&gt;Please use a passfdnase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Indtast et password til tegnebogen. &lt;br/&gt; Brug mindst 10 karakterer&lt;b&gt;eller&lt;b&gt; mindst 8 ord&lt;b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Kryptografér tegnebogen</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Dette kræver dit password for at låse tegnebogen op</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Lås tegnebogen op</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Dette kræver dit password for at dekryptere tegnebogen</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Dekrypter tegnebogen</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>Skift password</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Indtast det gamle og det nye password til tegnebogen</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE FDN&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>Kryptografering af tegnebogen fejlede på grund af en intern fejl. Tegnebogen er ikke kryptograferet.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>De indtastede passwords er ikke ens.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Tegnebogen kunne ikke låses op</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Det indtastede password er forkert og kan ikke dekryptere tegnebogen</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Dekryptering fejlede.</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Kodeordet blev udskiftet.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Indtast den Fundin adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
+        <source>passphrase: </source>
         <translation>Kodeord</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>BIP 38 dekryptér.</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passfdnase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>Klik på "Dekrypter" for at generere nøgle</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Det indtastede kodeord er ugyldigt</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Dekryptering mislykkedes</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Kontroller nøgle og kodeord - og prøv igen.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Sikkerhedskopier og gem et andet sted</translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
+        <source>&amp;Change passphrase...</source>
         <translation>&amp;Skift kodeord</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Skift kodeordet til kryptografering af tegnebog</translation>
     </message>
     <message>
@@ -642,7 +642,7 @@
         <translation>&amp;BIP 38 værktøj</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Krypter og dekrypter private nøgler ved hjælp af et kodeord</translation>
     </message>
     <message>

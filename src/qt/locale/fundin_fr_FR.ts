@@ -106,17 +106,17 @@
     </message>
 </context>
 <context>
-    <name>AskPassfdnaseDialog</name>
+    <name>AskpassphraseDialog</name>
     <message>
-        <source>Enter passfdnase</source>
+        <source>Enter passphrase</source>
         <translation>Entrer la fdnase secrète</translation>
     </message>
     <message>
-        <source>New passfdnase</source>
+        <source>New passphrase</source>
         <translation>Nouvelle fdnase secrète</translation>
     </message>
     <message>
-        <source>Repeat new passfdnase</source>
+        <source>Repeat new passphrase</source>
         <translation>Confirmer la nouvelle fdnase secrète</translation>
     </message>
     <message>
@@ -124,7 +124,7 @@
         <translation>Crypter le portefeuille</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Cette opération requiert votre fdnase secrète pour déverrouiller votre portefeuille.</translation>
     </message>
     <message>
@@ -132,7 +132,7 @@
         <translation>Déverrouiller le portefeuille</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passfdnase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Cette opération nécessite votre fdnase secrète de portefeuille pour décrypter le portefeuille </translation>
     </message>
     <message>
@@ -140,11 +140,11 @@
         <translation>Décrypter le portefeuille</translation>
     </message>
     <message>
-        <source>Change passfdnase</source>
+        <source>Change passphrase</source>
         <translation>Changer la fdnase secrète</translation>
     </message>
     <message>
-        <source>Enter the old and new passfdnase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Entrer l'ancienne et la nouvelle fdnase secrète dans le portefeuille</translation>
     </message>
     <message>
@@ -160,7 +160,7 @@
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passfdnase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FDN&lt;/b&gt;!</source>
         <translation>Attention : si vous cryptez votre portefeuille et perdez votre fdnase secrète, vous &lt;b&gt;PERDREZ TOUS VOS FDN&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -176,7 +176,7 @@
         <translation>Le cryptage du portefeuille a échoué en raison d'une erreur interne. Votre portefeuille n'a pas été crypté.</translation>
     </message>
     <message>
-        <source>The supplied passfdnases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Les fdnases secrètes fournies ne correspondent pas.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Le déverrouillage de votre portefeuille a échoué</translation>
     </message>
     <message>
-        <source>The passfdnase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>La fdnase secrète entrée pour le décryptage de votre portefeuille était incorrecte.</translation>
     </message>
     <message>
@@ -192,7 +192,7 @@
         <translation>Le décryptage de votre portefeuille a échoué.</translation>
     </message>
     <message>
-        <source>Wallet passfdnase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>La fdnase secrète de votre portefeuille a été changée avec succès.</translation>
     </message>
     <message>
@@ -211,7 +211,7 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passfdnase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Fundin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Entrez une adresse Fundin que vous voulez crypter en utilisant BIP 38. Entrez une fdnase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passfdnase: </source>
+        <source>passphrase: </source>
         <translation>Fdnase secrète :</translation>
     </message>
     <message>
@@ -295,7 +295,7 @@
         <translation>Cliquez sur "Décrypter la clé" pour calculer la clé</translation>
     </message>
     <message>
-        <source>The entered passfdnase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>La fdnase secrète entrée est incorrect.</translation>
     </message>
     <message>
@@ -327,7 +327,7 @@
         <translation>Échec du décryptage.</translation>
     </message>
     <message>
-        <source>Please check the key and passfdnase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Veuillez vérifier la clé et la fdnase secrète et réessayer.</translation>
     </message>
     <message>
@@ -422,11 +422,11 @@
         <translation>Sauvegarder ailleurs le portefeuille </translation>
     </message>
     <message>
-        <source>&amp;Change Passfdnase...</source>
+        <source>&amp;Change passphrase...</source>
         <translation>Changer la fdnase de sécurité...</translation>
     </message>
     <message>
-        <source>Change the passfdnase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Changer la fdnase secrète utilisée pour l'encryptage du portefeuille</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>Outil BIP38</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passfdnase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Crypter et décrypter les clés privées en utilisant une fdnase secrète</translation>
     </message>
     <message>
