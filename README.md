@@ -5,7 +5,7 @@ Fundin is a revolutionary cryptocurrency, developed with a motive to enhance cro
 - Pow and PoS, allowing very low transaction fees and energy expenditure, and staking rewards to all participants in the network
 - Masternode technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 10K FDN
-- Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
+- Decentralized blockchain voting utilizing Masternode technology to form a DAO.
 
 41,025,300 FDN was produced as premine till block 301. This fund is to be utilized for various purposes like Marketing, Exchange listing, Promoter Contribution and Swap with Fundin v1.0.
 
