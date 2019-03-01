@@ -59,7 +59,9 @@ Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
 Build requirements:
 
-	sudo apt-get install build-essential automake libtool autotools-dev autoconf pkg-config libevent-dev libssl1.0-dev
+sudo apt-get update
+
+sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl1.0-dev libevent-dev automake
 
 For Ubuntu 12.04 and later or Debian 7 and later libboost-all-dev has to be installed:
 
